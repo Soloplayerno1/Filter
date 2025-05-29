@@ -24,5 +24,9 @@ private:
 	Vector2f imgFrame;
 
 	Texture* image;
+
+ Vector2f option_pos;
+
+ Font font;
 };
 
