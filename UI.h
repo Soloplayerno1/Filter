@@ -17,8 +17,7 @@ public:
 	UI(int window_w, int window_h, float image_frame_w, float image_frame_h, Texture* image);
 	Draw(RenderWindow& window);
 private:
-	RectangleShape buttons[6];
-	Text Descriptions[6];
+	Text Options[6];
 
 	RectangleShape Image;
 
